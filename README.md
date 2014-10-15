@@ -3,6 +3,13 @@ boxfuse-sample-java-war-hello
 
 Boxfuse Sample Hello World Java application packaged as a war file
 
+## Prerequisites
+
+- Git
+- Maven
+- VirtualBox
+- Boxfuse
+
 ## Running
 
 1. git clone https://github.com/boxfuse/boxfuse-sample-java-war-hello
