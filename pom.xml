@@ -2,10 +2,10 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
     <modelVersion>4.0.0</modelVersion>
     <groupId>com.boxfuse.samples</groupId>
-    <artifactId>boxfuse-sample-java-war-hello</artifactId>
+    <artifactId>hello</artifactId>
     <packaging>war</packaging>
-    <version>0-SNAPSHOT</version>
-    <name>boxfuse-sample-java-war-hello</name>
+    <version>1.0</version>
+    <name>hello</name>
     <url>https://github.com/boxfuse/boxfuse-sample-java-war-hello</url>
     <dependencies>
         <dependency>
@@ -16,7 +16,6 @@
         </dependency>
     </dependencies>
     <build>
-        <finalName>hello</finalName>
         <plugins>
             <plugin>
                 <artifactId>maven-compiler-plugin</artifactId>
