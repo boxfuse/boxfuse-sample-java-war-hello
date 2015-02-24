@@ -51,7 +51,7 @@
 
 <p>Go back to the <strong><a href="https://console.boxfuse.com">Boxfuse Console</a></strong>,<br/>delete this App and create your own.</p>
 
-<p>If you need any help the <strong><a href="">documentation</a></strong> is there for you,<br/>or simply shoot us an email at <a href="mailto:support@boxfuse.com">support@boxfuse.com</a></p>
+<p>If you need any help the <strong><a href="http://boxfuse.com/docs">documentation</a></strong> is there for you,<br/>or simply shoot us an email at <a href="mailto:support@boxfuse.com">support@boxfuse.com</a></p>
 
 <p>Say goodbye to snowflake servers.</p>
 <p><strong>Enjoy Boxfuse!</strong></p>
