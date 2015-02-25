@@ -16,9 +16,9 @@
 </strong> generated from <strong><%= System.getenv("BOXFUSE_PAYLOAD_NAME")%>
 </strong></p>
 
+<% if("virtualbox".equals(System.getenv("BOXFUSE_PLATFORM_ID"))) { %>
 <h2 style="margin-top: 80px">Next steps</h2>
 
-<% if("virtualbox".equals(System.getenv("BOXFUSE_PLATFORM_ID"))) { %>
 <p style="margin-bottom: 20px;">
     Display the Instance console:<br/>
     <strong>boxfuse logs <%= System.getenv("BOXFUSE_INSTANCE_ID") %>
@@ -47,9 +47,11 @@
     </strong>
 </p>
 <% } else { %>
-<p>Now it's your turn!</p>
+<h2 style="margin-top: 80px">Now it's your turn!</h2>
 
-<p>Go back to the <strong><a href="https://console.boxfuse.com">Boxfuse Console</a></strong>,<br/>delete this App and create your own.</p>
+<p>Check out <strong><a href="https://github.com/boxfuse/boxfuse-sample-java-war-hello">this app</a></strong> from GitHub, modify it, and give it version 2.<br/>You are now ready to fuse and <strong>deploy it with zero downtime</strong> using the commands you already know.</p>
+
+<p>Alternatively you can go back to the <strong><a href="https://console.boxfuse.com">Boxfuse Console</a></strong>,<br/>delete this App and simply create your own.</p>
 
 <p>If you need any help the <strong><a href="http://boxfuse.com/docs">documentation</a></strong> is there for you,<br/>or simply shoot us an email at <a href="mailto:support@boxfuse.com">support@boxfuse.com</a></p>
 
