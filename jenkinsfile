@@ -1,0 +1,16 @@
+node {  
+    stage('checkout') { 
+        sh 'cd /var/lib/jenkins/workspace/Temenos-1/.'
+        sh 'rm -rf *'
+        sh 'git clone https://github.com/boxfuse/boxfuse-sample-java-war-hello.git'
+    }
+    stage('build') {
+        sh 'mv  /var/lib/jenkins/workspace/Temenos-1/boxfuse-sample-java-war-hello/* /var/lib/jenkins/workspace/Temenos-1/' 
+        sh 'mvn clean package'     
+   } 
+        
+    stage("publish to nexus") {
+            
+            nexusArtifactUploader artifacts: [[artifactId: 'myweb', classifier: 'RELEASE', file: 'target/myweb-0.12.0.war', type: 'war']], credentialsId: 'nexus', groupId: 'in.shan5a6', nexusUrl: '10.1.1.5:8081', nexusVersion: 'nexus3', protocol: 'http', repository: 'Temenos-sample', version: '3.13.0'
+            }
+        }
