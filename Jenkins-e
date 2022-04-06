@@ -6,6 +6,13 @@ pipeline {
             steps{
                   git credentialsId: 'e7bca83f-c29a-482c-91b4-e038c2277210', url: 'https://github.com/RAJANI9/boxfuse-sample-java-war-hello/'
                   }
-            }      
+            }
+            stage("build"){
+                  steps{
+                       sh "mvn clean package"
+                       sh "mv target/*.war target/myweb.war"
+                       }
+                       
+             }
        }
   }     
