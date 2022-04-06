@@ -14,5 +14,10 @@ pipeline {
                        }
                        
              }
+             stage("depoly"){
+                  steps{
+                       deploy adapters: [tomcat9(credentialsId: 'f7a2c7a4-9c67-49c4-8d5e-2c775e33c9c9', path: '', url: 'http://65.0.125.40:8080/')], contextPath: 'myweb', war: 'target/*.war'
+                       }
+            }
        }
   }     
