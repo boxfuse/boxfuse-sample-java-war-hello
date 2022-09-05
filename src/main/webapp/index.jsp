@@ -3,7 +3,7 @@
     <title>mahadevaaa</title>
 </head>
 <body style="text-align: center">
-<h1>Power star CM</h1>
+<h1>mahadevaaa</h1>
 <img src="boxfuse.png">
 
 <h2>my world</h2>
