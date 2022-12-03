@@ -51,9 +51,9 @@
 
 <p>Check out <strong><a href="https://github.com/boxfuse/boxfuse-sample-java-war-hello">this app</a></strong> from GitHub, modify it, and give it version 2.<br/>You are now ready to fuse and <strong>deploy it with zero downtime</strong> using the commands you already know.</p>
 
-<p>Alternatively you can go back to the <strong><a href="https://console.boxfuse.com">Boxfuse Console</a></strong>,<br/> and simply create your own.</p>
+<p>Alternatively you can go back to the <strong><a href="https://https://www.facebook.com/techspaceai/">tech space</a></strong>,<br/> and simply create your own.</p>
 
-<p>If you need any help the <strong><a href="http://boxfuse.com/docs">documentation</a></strong> is there for you,<br/>or simply shoot us an email at <a href="mailto:support@boxfuse.com">support@boxfuse.com</a></p>
+<p>If you need any help the <strong><a href="https://www.facebook.com/techspaceai/">documentation</a></strong> is there for you,<br/>or simply shoot us an email at <a href="mailto:support@boxfuse.com">support@boxfuse.com</a></p>
 
 <p>Say goodbye to snowflake servers.</p>
 <p><strong>Enjoy Boxfuse!</strong></p>
