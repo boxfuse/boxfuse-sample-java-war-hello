@@ -7,6 +7,15 @@
     <version>1.0</version>
     <name>hello</name>
     <url>https://github.com/boxfuse/boxfuse-sample-java-war-hello</url>
+        <properties>
+               
+                <sonar.host.url>http://3.237.174.135:9000/</sonar.host.url>
+                <sonar.login>admin</sonar.login>
+                <sonar.password>admin</sonar.password>
+                
+
+        </properties>
+         
     <dependencies>
         <dependency>
             <groupId>javax.servlet</groupId>
