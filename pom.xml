@@ -9,8 +9,8 @@
     <url>https://github.com/boxfuse/boxfuse-sample-java-war-hello</url>
         <properties>       
                 <sonar.host.url>http://18.235.2.20:9000//</sonar.host.url>
-                <sonar.login>admin</sonar.login>
-                <sonar.password>admin</sonar.password>
+                <sonar.login>2954cb18e04a78b23fd116f1b1c8cca7e6b477ef/sonar.login>
+ 
         </properties>
          
     <dependencies>
