@@ -8,7 +8,7 @@
     <name>venkatesh maddineni org</name>
     <url>https://github.com/boxfuse/boxfuse-sample-java-war-hello</url>
         <properties>       
-                <sonar.host.url>http://44.204.120.153:9000//</sonar.host.url>
+                <sonar.host.url>http://18.235.2.20:9000//</sonar.host.url>
                 <sonar.login>admin</sonar.login>
                 <sonar.password>admin</sonar.password>
         </properties>
