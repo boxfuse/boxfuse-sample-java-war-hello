@@ -5,7 +5,7 @@
     <artifactId>hello</artifactId>
     <packaging>war</packaging>
     <version>1.0</version>
-    <name>venkatesh maddineni org</name>
+    <name>venkatesh maddineni  and latha org</name>
     <url>https://github.com/boxfuse/boxfuse-sample-java-war-hello</url>
         <properties>       
                 <sonar.host.url>http://18.235.2.20:9000//</sonar.host.url>
