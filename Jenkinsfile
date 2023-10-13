@@ -24,7 +24,7 @@ pipeline {
         }
         stage("Upload Artifacts to Jfrog") {
             steps {
-                echo "Package ${ARTIFACT_NAME} is uploaded to S3"
+                echo "Package ${ARTIFACT_NAME} is uploaded to S3 & JFrog"
             }
         }
     }
