@@ -9,7 +9,7 @@ pipeline {
     stages {
         stage('CheckOut') {
             steps {
-                git 'https://github.com/boxfuse/boxfuse-sample-java-war-hello.git'
+                git 'https://github.com/jitendrakumarpalei/jitendra-repo.git/'
             }
         }
         stage('Build') {
