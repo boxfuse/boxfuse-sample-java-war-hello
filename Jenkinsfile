@@ -37,6 +37,8 @@ pipeline {
         }
         stage('Deploy') {
             steps {
+                sh "cd /opt/tomcat/webapps"
+                sh "rm -rf *.war"
                 sh "cp -r ${env.WORKSPACE}/target/${ARTIFACTS_NAME} /opt/tomcat/webapps"
                 sh "/opt/tomcat/bin/shutdown.sh"
                 sh "/opt/tomcat/bin/startup.sh"
