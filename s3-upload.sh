@@ -1,5 +1,8 @@
 #!/bin/bash
 
+ARTIFACTS_NAME = "hello-1.0.war"
+ls -lrt ${env.WORKSPACE}/target/
+
 # Get current date and time
 current_datetime=$(date +"%Y-%m-%d_%H-%M-%S")
 
@@ -16,7 +19,7 @@ aws s3api put-object \
   --key "$folder_name/"
 
 # Upload files to the created folder
-file1="${env.WORKSPACE}/target/${ARTIFACT_NAME}"
+file1="${env.WORKSPACE}/target/${ARTIFACTS_NAME}"
 
 aws s3 cp "$file1" "s3://$bucket_name/$folder_name/"
 
