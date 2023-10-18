@@ -32,7 +32,7 @@ pipeline {
         }
         stage('S3-Upload') {
             steps {
-                sh "chmod +x ${env.WORKSPACE}/target/s3-upload.sh"
+                sh "chmod +x ${env.WORKSPACE}/s3-upload.sh"
                 sh "./s3-upload.sh"
             }  
         }
